@@ -1,0 +1,16 @@
+@mixin responsive-lg {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+@mixin responsive-md {
+    @media (max-width: 992px) {
+        @content;
+    }
+}
+ 
+@mixin responsive-mdm {
+    @media (max-width: 768px) {
+        @content;
+    }
+}

@@ -1,0 +1,60 @@
+footer {
+    background-color: #EEF5F2;
+    .information {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .forCustomers {
+            h1 {
+                font-size: 22px;
+                font-family: sans-serif;
+                margin-bottom: 1rem;
+            }
+            a {
+                text-decoration: none;
+                color: grey;
+                font-size: 14px;
+            }
+        }
+        .info {
+            h1 {
+                font-size: 22px;
+                font-family: sans-serif;
+                margin-bottom: 1rem;
+                margin-top: 2rem;
+            }
+            a {
+                display: flex;
+                text-decoration: none;
+                color: grey;
+                font-size: 14px;
+                align-items: left;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .allRights {
+        text-align: center;
+        h1 {
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+        h4 {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 1rem;
+        }
+    }
+    .follow {
+        max-width: 10%;
+        h1 {
+            font-size: 22px;
+            font-family: sans-serif;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        img {
+            max-width: 25%;
+        }
+    }
+}

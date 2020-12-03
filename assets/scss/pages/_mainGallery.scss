@@ -1,0 +1,17 @@
+.gallery {
+    .allBoxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2rem auto;
+        .photoBox {
+            height: 40vh;
+            width: 30vw;
+            margin: 1rem;
+            img {
+               width: 100%;
+            }
+        }
+    }
+
+}

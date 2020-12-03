@@ -1,0 +1,76 @@
+section {
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 2rem;
+        color: #454543;
+        @include responsive-mdm() {
+            font-size: 26px;
+        }
+    }
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1rem 2rem;
+        .box {
+            height: 20vw;
+            width: 25vw;
+            margin: 2rem 2rem;
+            box-shadow: 0px 0px 8px 1px #8B7E68;
+            @include responsive-md() {
+                width: 35vw;
+                height: 25vw;
+                margin: 1rem 1rem;
+            }
+            @include responsive-mdm() {
+                width: 60vw;
+                height: 40vw;
+                margin: 1rem 0.5rem;
+            }
+            h3 {
+                text-align: center;
+                margin: 14vw auto;
+                color: white;
+                font-size: 24px;
+                @include responsive-md() {
+                    font-size: 16px;
+                }
+                @include responsive-mdm() {
+                    font-size: 16px;
+                    margin: 25vw auto;
+                }
+            }
+        }
+        .one {
+            background-image: url(/assets/img/1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .two {
+            background-image: url(/assets/img/4.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .three {
+            background-image: url(/assets/img/2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .four {
+            background-image: url(/assets/img/3.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .five {
+            background-image: url(/assets/img/6.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .six {
+            background-image: url(/assets/img/9.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}

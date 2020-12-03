@@ -1,0 +1,35 @@
+.container {
+    h1 {
+        @include responsive-mdm() {
+            font-size: 20px;
+        }
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+       .item {
+        width: 20%;
+        margin: 1rem auto;
+        text-align: center;
+        @include responsive-mdm() {
+            width: 100%;
+        }
+           img {
+               max-width: 30%;
+               margin-bottom: 1rem;
+               @include responsive-mdm() {
+                max-width: 10%;
+            }
+           }
+           h2 {
+               font-size: 18px;
+               color: #454543;
+               @include responsive-mdm() {
+                font-size: 12px;
+            }
+           }
+       }
+    }
+}
